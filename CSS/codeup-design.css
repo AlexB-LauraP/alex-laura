@@ -1,3 +1,35 @@
 * {
     box-sizing: border-box;
 }
+
+h1 {
+    font-size: 64px;
+    font-family: 'Abel', sans-serif;
+    /*text-align: center;*/
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h4 {
+    font-size: 32px;
+}
+
+h5 {
+    font-size: 28px;
+}
+
+p,
+ul {
+    font-family: 'Abel', sans-serif;
+    float: left;
+    text-align: center;
+}
+p {
+    font-size: 32px;
+}
+
+body > div.container > div > div:nth-child(1) > div > img{
+    width: 105px;
+}
