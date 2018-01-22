@@ -33,7 +33,6 @@ h5 {
 
 body > div.container > div > div:nth-child(1) > div > img{
     width: 105px;
-    background: white;
 }
 
 body {
@@ -42,4 +41,50 @@ body {
 
 }
 
-@media
+div:nth-child(1) > h1,
+div:nth-child(3) > h2 {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+
+.design {
+    background:#e6563b;
+    padding: 80px;
+    border: 1em solid white;
+    border-radius: 50%;
+    font-family: 'Anton', sans-serif;
+    float: left;
+    color: white;
+    font-size: 28px;
+}
+.develop {
+    background: #DEA03D;
+    padding: 80px;
+    border: 1em solid white;
+    border-radius: 50%;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+.support {
+    background: #7cb06c;
+    padding: 80px;
+    border: 1em solid white;
+    border-radius: 50%;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+.host {
+    background: #00aba9;
+    padding: 80px;
+    border: 1em solid white;
+    border-radius: 50%;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+}
