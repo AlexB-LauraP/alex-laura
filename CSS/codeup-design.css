@@ -1,4 +1,4 @@
-* {
+html{
     box-sizing: border-box;
 }
 
@@ -6,85 +6,127 @@
 h1 {
     font-size: 64px;
     font-family: 'Abel', sans-serif;
+}
+
+.jumbotron {
+    margin: 0;
+    text-align: center ;
 
 }
 
-
-
-h2 {
-    font-size: 48px;
-}
-
-h4 {
-    font-size: 32px;
-}
-
-h5 {
-    font-size: 28px;
-}
-
-.p {
-    font-family: 'Abel', sans-serif;
-    float: left;
+ul {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    display: table-row;
     text-align: center;
-    font-size: 28px;
+}
+
+li {
+    display: inline-grid;
 }
 
 
-body > div.container > div > div:nth-child(1) > div > img{
+
+
+img {
     width: 105px;
+    border-radius: 50%;
+    margin: 0;
+
 }
+
 
 body {
     background: #e6e6e6;
-
-
 }
 
-div:nth-child(1) > h1,
-div:nth-child(3) > h2 {
+
+
+.nav-bar {
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.nav-bar-text {
+    text-align: center;
+    padding-right: 8em;
+    background-size: 20px;
+}
+
+
+.title-container>h1,
+.title-container>h2 {
     font-family: 'Anton', sans-serif;
     text-align: center;
 }
+
+
+
+.codeupdesign,
+.row {
+    text-align: center;
+}
+
+
 
 .design {
     background:#e6563b;
     padding: 80px;
-    border: 1em solid white;
+    border: 10px solid white;
     border-radius: 50%;
     font-family: 'Anton', sans-serif;
-    float: left;
+    text-align: center;
     color: white;
     font-size: 28px;
+    display: flex;
+    justify-content: center;
 }
+
+
+
 .develop {
     background: #DEA03D;
     padding: 80px;
-    border: 1em solid white;
+    border: 10px solid white;
     border-radius: 50%;
     font-family: 'Anton', sans-serif;
     text-align: center;
     color: white;
     font-size: 28px;
+    display: flex;
+    justify-content: center;
 }
+
+
+
 .support {
     background: #7cb06c;
     padding: 80px;
-    border: 1em solid white;
+    border: 10px solid white;
     border-radius: 50%;
     font-family: 'Anton', sans-serif;
     text-align: center;
     color: white;
     font-size: 28px;
+    display: flex;
+    justify-content: center;
 }
+
+
+
 .host {
     background: #00aba9;
     padding: 80px;
-    border: 1em solid white;
+    border: 10px solid white;
     border-radius: 50%;
     font-family: 'Anton', sans-serif;
     text-align: center;
     color: white;
     font-size: 28px;
+    display: flex;
+    justify-content: center;
 }
-}
+
