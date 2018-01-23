@@ -133,7 +133,7 @@ body {
 /*****************************************************END OF NAV*******************************************/
 
 
-}
+
 .photos {
     border: 0.5em solid lightgrey;
     width:500px;
@@ -192,6 +192,7 @@ body {
 @media (min-width:768px) {
     .select {
         text-align: center;
+
     }
     .photos {
         width: 100%;
