@@ -29,7 +29,7 @@ li {
 
 
 
-img {
+.logo {
     width: 105px;
     border-radius: 50%;
     margin: 0;
@@ -130,3 +130,100 @@ body {
     justify-content: center;
 }
 
+/*****************************************************END OF NAV*******************************************/
+
+
+}
+.photos {
+    border: 0.5em solid lightgrey;
+    width:500px;
+    position:relative;
+}
+
+.space {
+    margin-top: 10px;
+}
+
+.ddsh {
+    float: right;
+    position: relative;
+    /*border-radius: 50%;*/
+    /*padding: 1px;*/
+    /*margin: 0 1px 5px 1px;*/
+    /*border: 1px solid black;*/
+
+}
+
+.lastimgrow {
+    width:100%;
+    /*float: left;*/
+}
+
+.twit {
+    width: 100%;
+}
+
+
+/*body > div > div > div.hidden-xs.col-sm-10.col-md-12.col-lg-12 {*/
+/*position: relative;*/
+/*left: ;*/
+/*}*/
+
+/*------xs devices default setting in Bootstrap-------*/
+
+@media (max-width: 767px) {
+    .select {
+        text-align: center;
+    }
+
+    .photos {
+        width: 100%;
+        height: auto;
+
+        display: inline-block;
+    }
+
+}
+
+
+
+/*---------sm devices--------*/
+
+@media (min-width:768px) {
+    .select {
+        text-align: center;
+    }
+    .photos {
+        width: 100%;
+        float: left;
+    }
+}
+
+
+
+
+/*-----------medium devices-------*/
+
+@media (min-width:992px) {
+    .photos {
+        width:100%;
+        float: left;
+    }
+
+}
+
+
+
+
+/*------------lg and xl devices-------*/
+
+@media (min-width:1200px) {
+    .photos {
+        width:100%;
+        float: left;
+    }
+    .alex-laura {
+        width: 75%;
+        margin-left: 20%;
+    }
+}
