@@ -131,8 +131,14 @@ body {
 }
 
 /*****************************************************END OF NAV*******************************************/
-
-
+body > main > section > div.split.row > div.hidden-xs.col-sm-12.col-md-12.col-lg-12 {
+    margin-top: 140px;
+    
+}
+.split {
+    font-family: Abel;
+    font-size: 30px;
+}
 
 .photos {
     border: 0.5em solid lightgrey;
@@ -150,10 +156,6 @@ body {
 .ddsh {
     float: right;
     position: relative;
-    /*border-radius: 50%;*/
-    /*padding: 1px;*/
-    /*margin: 0 1px 1px 1px;*/
-    /*border: 1px solid grey;*/
 
 }
 
@@ -162,8 +164,27 @@ body {
 }
 
 .lastimgrow {
-    width:100%;
-    /*float: left;*/
+    width: 100%;
+    border:1px solid #f0f0f0;
+
+}
+
+.lasttext {
+    padding: 0px;
+    font-family: Anton;
+    float: left;
+    text-align: left;
+    font-size: 28px;
+}
+
+.last {
+    font-family: Abel;
+    text-align: left;
+    font-size: 20px;
+}
+
+.twitter {
+    margin-top: 40px;
 }
 
 .twit {
@@ -171,10 +192,6 @@ body {
 }
 
 
-/*body > div > div > div.hidden-xs.col-sm-10.col-md-12.col-lg-12 {*/
-/*position: relative;*/
-/*left: ;*/
-/*}*/
 
 /*------xs devices default setting in Bootstrap-------*/
 
