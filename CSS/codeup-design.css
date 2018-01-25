@@ -296,4 +296,7 @@ body > main > section > div.split.row > div.hidden-xs.col-sm-12.col-md-12.col-lg
         width: 75%;
         margin-left: 10%;
     }
+    .lastimgrow {
+        margin-bottom: 20px;
+    }
 }
